@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="renderer" content="webkit">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="webkit" name="renderer">
     <title>Rabbit Go - MeowCat Studio</title>
-    <link rel="shortcut icon" href="res/mipmap/favicon.png" type="image/x-icon"/>
-    <link href="res/layout/material.css" rel="stylesheet" />
+    <link href="res/mipmap/favicon.png" rel="shortcut icon" type="image/x-icon"/>
+    <link href="res/layout/material.css" rel="stylesheet"/>
     <script src="src/javascript/iframe.js"></script>
-    <link href="res/layout/style.css" rel="stylesheet" />
+    <link href="res/layout/style.css" rel="stylesheet"/>
 </head>
 <body class="mdl-base" onload="onload();">
 <div class="mdl-layout__container">
@@ -18,18 +18,19 @@
             <div class="mdl-card__title"><h2 class="mdl-card__title-text">Rabbit Go</h2></div>
             <div class="mdl-card__supporting-text">I can't stop the music cycle.<br/>-----MlgmXyysd<br/>
                 <audio controls="controls" preload="auto">
-                    <source id="bgm-src" src="https://meowcdn.bushellc.com/3a3b0c16f87041e2/res/raw/HelloKitty.wav" type="audio/wav">
+                    <source id="bgm-src" src="res/raw/HelloKitty.wav" type="audio/wav">
                 </audio>
             </div>
             <div class="mdl-card__actions mdl-card--border">
                 <p class="mdl-button" disabled="disabled">
                     <label for="answer" id="question_tip"></label>
                 </p>
-                <input class="mdl-button" type="text" placeholder="Input Answer Here" id="answer" autocomplete="off"/>
+                <input autocomplete="off" class="mdl-button" id="answer" placeholder="Input Answer Here" type="text"/>
                 <p class="mdl-button" disabled="disabled">
                     <label for="answer" id="answer_label">.meowcat.org</label>
                 </p>
-                <input style="float:right;" id="answer_submit" class="mdl-button mdl-button--colored" type="button" value="Go"/>
+                <input class="mdl-button mdl-button--colored" id="answer_submit" style="float:right;" type="button"
+                       value="Go"/>
             </div>
         </div>
     </div>
